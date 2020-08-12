@@ -10,7 +10,7 @@ node 'puppetmaster.barrio.com' {
  }
  
  node /^web/ {
-  include role::app_server
+  include role::web_server
  }
  
  node /^db/ {
